@@ -90,7 +90,6 @@ func ExampleMap_omitNested() {
 		Time time.Time `structs:"time,omitnested"` // do not convert to map[string]interface{}
 	}
 
-	const shortForm = "2006-Jan-02"
 	t, _ := time.Parse("2006-Jan-02", "2013-Feb-03")
 
 	s := &Server{
