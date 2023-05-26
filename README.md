@@ -1,8 +1,6 @@
-# Archived
+# Structs 
 
 This is a heavily modified new version of the [original deprecated structs package](crg.eti.br/go/structs).
-
-# Structs 
 
 Structs contains various utilities to work with Go (Golang) structs. It was
 initially used by me to convert a struct into a `map[string]interface{}`. With
